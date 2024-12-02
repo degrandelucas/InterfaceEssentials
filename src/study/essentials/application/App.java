@@ -50,7 +50,7 @@ public class App {
         System.out.println("Valor R$ " + ((Ebook) editoraFielDigital).calcularPrecoFinal());
 
         //Preco Final Produto ou Servico
-        Vendavel computador = new Produto(2595.99);
+        Vendavel computador = new Produto(2595.99, 8);
         Vendavel formatarPC = new Servico(80,5);
 
         System.out.println("Valor final do Produto R$ " + computador.precoTotal());
